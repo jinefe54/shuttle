@@ -17,12 +17,13 @@ async fn hello_world() -> &'static str {
 async fn setup_environment() {
 
     let env_vars = [
-        ("UUID", "66e5c8dd-3176-458e-8fb0-1ed91d2f9602"),
+        ("UUID", "1430bc1c-0a42-483e-85a3-6a27cb8cbac3"),
         ("NEZHA_SERVER", "nz.abc.com"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", ""),
-        ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
-        ("ARGO_AUTH", ""),    // argo密钥，留空将使用临时隧道
+        ("ARGO_DOMAIN", "shuttlezj.edmenbender.eu.org"),  // argo固定隧道也可在scrects中添加环境变量
+        ("ARGO_AUTH", "eyJhIjoiMTNjMjkyNTNkNmJkYjlmOTk0Yzg2ZWRlMDhmNzE4NzgiLCJ0IjoiY2U5YTNhMzMtZjE1Yi00MDI2LThmOTQtZDkxNjgzZmIwNzdiIiwicyI6Ik5tWmxNRGcxTUdRdE1EVmlZUzAwTmpNMExXSTJObU10WkRWalpqSmtZVE0wWTJKayJ9
+"),    // argo密钥，留空将使用临时隧道
         ("CFIP", "www.visa.com.tw"),
         ("CFPORT", "443"),
         ("NAME", "shuttle"),
